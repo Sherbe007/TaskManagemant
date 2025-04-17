@@ -1,0 +1,191 @@
+
+@media (max-width: 768px) {
+  /* Mobile View */
+  .usersidebar {
+    width: 50px;
+  }
+  .main-content-expand
+  {
+    width: 100% !important;
+  }
+
+  .usersidebar.expanded {
+    width: 150px;
+  }
+
+  .header {
+  /*   flex-direction: column; */
+    align-items: flex-start;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .header-icons {
+    gap: 0px;
+  }
+
+  .main-section h1 {
+    font-size: 20px;
+  }
+  .togglelogo-expnd {
+    margin-left: 0.1rem;
+  }
+  .main-section p {
+    font-size: 14px;
+  }
+
+
+  .menu-item {
+    padding: 8px;
+    font-size: clamp(0.7rem, 1.2vw, 0.8rem);
+  }
+
+ 
+.usersidebar-logo {
+    width: 60%;
+    padding: 0.5rem;
+    height: auto;
+  }
+
+#mobileview
+  {
+    display: none;
+  }
+
+  #moblviewboard
+  {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    #moblviewboardrow 
+    {
+      flex-wrap: unset !important;
+    }
+    .status-drag
+    {
+      max-width: 60% !important;
+    }
+  }
+#root
+{
+  padding-left: 1rem;
+}
+ 
+}
+
+@media (max-width: 576px) {
+  .main-content-expand 
+  {
+    width: 100% !important;
+  }
+
+  .usersidebar {
+    width: 40px;
+  }
+
+  .usersidebar.expanded {
+    width: 120px;
+  }
+  .togglelogo-expnd {
+    margin-left: 0.1rem;
+  }
+ 
+  .hat-big-icon {
+    font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  }
+
+  .hat-small-icon {
+    font-size: clamp(0.6rem, 0.9vw, 0.7rem);
+  }
+
+  .menu-item {
+    padding: 6px 8px;
+    font-size: 0.7rem;
+  }
+
+  .usersidebar-logo {
+    width: 60%;
+    padding: 0.5rem;
+    height: auto;
+  }
+
+
+  #moblviewboard
+  {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    #moblviewboardrow
+    {
+      flex-wrap: unset !important;
+    }
+    .status-drag
+    {
+      max-width: 60% !important;
+    }
+  }
+  #root
+{
+  padding-left: 1rem;
+}
+}
+
+
+@media (max-width: 376px) {
+  .main-content-expand 
+  {
+    width: 100% !important;
+  }
+
+  .usersidebar {
+    width: 40px;
+  }
+
+  .usersidebar.expanded {
+    width: 120px;
+  }
+  .togglelogo-expnd {
+    margin-left: 0.1rem;
+  }
+ 
+  .hat-big-icon {
+    font-size: clamp(1.2rem, 1.8vw, 1.5rem);
+  }
+
+  .hat-small-icon {
+    font-size: clamp(0.6rem, 0.9vw, 0.7rem);
+  }
+
+  .menu-item {
+    padding: 6px 8px;
+    font-size: 0.7rem;
+  }
+
+  .usersidebar-logo {
+    width: 60%;
+    padding: 0.5rem;
+    height: auto;
+  }
+
+
+  #moblviewboard
+  {
+    width: 100%;
+    display: flex;
+    overflow-x: scroll;
+    #moblviewboardrow
+    {
+      flex-wrap: unset !important;
+    }
+    .status-drag
+    {
+      max-width: 60% !important;
+    }
+  }
+
+  #root
+{
+  padding-left: 1rem;
+}
+}

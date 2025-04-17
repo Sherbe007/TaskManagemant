@@ -1,0 +1,66 @@
+.margin0px
+{
+    margin: 0px;
+}
+
+.linehright17
+{
+    line-height: 1.7;
+}
+.fontsize08rem
+{
+    font-size:0.8rem !important;
+}
+.inactivecolor
+{
+   color: #585858;
+}
+.activecolor
+{
+   color: #1a1919;
+}
+.fontweight600
+{
+    font-weight: 600;
+}
+
+.padding0px
+{
+    padding: 0em;
+}
+.paddingleft0px
+{
+    padding-left: 0px !important;
+}
+
+.paddingleft05em
+{
+    padding-left: 0.5em;
+}
+
+.paddingtop1rem
+{
+    padding-top:1em;
+}
+.bordernone
+{
+    border: none;
+}
+
+.inactivetiyle
+{
+    @extend .fontsize08rem;
+    @extend .inactivecolor;
+    @extend .padding0px;
+    @extend .paddingleft05em;
+    @extend .bordernone;
+}
+.activetiyle
+{
+    @extend .fontsize08rem;
+    @extend .activecolor;
+    @extend .padding0px;
+    @extend .paddingleft05em;
+    @extend .bordernone;
+    @extend .fontweight600;
+}
